@@ -15,7 +15,6 @@ public class Main {
         int[] m1 = multiples(n);
         System.out.println("Задача 3: " + Arrays.toString(m1)); // Task3
 
-        //Найти все некратные n числа в диапазоне от Short.MIN_VALUE до i и сохранить в массив m2
         int[] m2 = notMultiples(n);
         System.out.println("Задача 4: " + Arrays.toString(m2)); // Task4
     }
